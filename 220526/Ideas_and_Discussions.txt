@@ -1,0 +1,10 @@
+Problems and Ideas:
+
+1. Parallel / GPU Computing (finite difference code?)
+2. NN for image recognition of math expression and automatic solution - https://www.cs.hmc.edu/~adobke/nn/ or https://blog.ayoungprogrammer.com/2013/01/equation-ocr-part-2-training-characters.html 
+3. Optimization
+4. Sudoku Automatic Solver - https://liorsinai.github.io/coding/2021/08/10/sudoku-reader-part1-intro.html 
+5. Natural Language Processing - https://juliaacademy.com/courses/512903/lectures/9410023 
+6. Agent-Based Modeling - Pitt Campus Mobility (in Unreal Engine) or Wildfire Modeling 
+7. ASCE MegaCity Project
+8. Music Synthesizer in Julia / Python
