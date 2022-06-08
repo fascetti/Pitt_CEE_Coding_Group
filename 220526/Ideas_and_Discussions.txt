@@ -8,3 +8,4 @@ Problems and Ideas:
 6. Agent-Based Modeling - Pitt Campus Mobility (in Unreal Engine) or Wildfire Modeling 
 7. ASCE MegaCity Project
 8. Music Synthesizer in Julia / Python
+9. Physics-Informed Neural Networks
