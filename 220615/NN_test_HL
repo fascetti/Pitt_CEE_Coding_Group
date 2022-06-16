@@ -1,0 +1,46 @@
+import math
+import numpy as np
+import matplotlib.pyplot as plt
+
+x =  np.arange(0,10,0.01)
+y = np.power(x,3) - np.multiply(12,x) + np.multiply(np.random.randn(len(x))*15,x)
+
+plt.plot(x,y)
+
+
+from keras.models import Sequential
+from keras.layers import Dense, Activation
+from sklearn.preprocessing import MinMaxScaler
+scaler = MinMaxScaler()
+# transform data
+y_scaled = scaler.fit_transform(y.reshape(-1, 1))
+# Define the network model and its arguments. 
+# Set the number of neurons/nodes for each layer:
+model = Sequential()
+# model.add(Dense(10, input_dim=1, activation='tanh'))
+model.add(Dense(10, input_dim=1, activation='sigmoid'))
+model.add(Dense(1, activation='linear'))
+# model.add(Dense(12, activation=’relu’))
+# model.add(Dense(2, activation='softmax'))
+
+# Compile the model and calculate its accuracy:
+model.compile(loss='MeanSquaredError', optimizer='adam')
+
+# Print a summary of the Keras model:
+model.summary()
+
+# Train this thing
+model.fit(x, y_scaled, epochs = 100)
+
+predictions_scaled = model.predict(x)
+predictions = scaler.inverse_transform(predictions_scaled)
+# plt.scatter(x.reshape(-1, 1),predictions)
+plt.scatter(x,y)
+plt.scatter(x,predictions)
+
+plt.scatter(x,predictions)
+
+y_scaled
+
+
+
