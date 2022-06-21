@@ -1,0 +1,12 @@
+Create a Python script to evaluate any decimal number in a fraction. 
+
+"fraction_evaluation"
+
+Input is the number and a user-defined tolerance (optional, default value 1e-8). Output is numerator and denominator of the fraction.
+
+The function needs to be tested on:
+fraction_evaluation(0) = 0
+fraction_evaluation(0.5) = [1, 2]
+fraction_evaluation(1.66) = [Error]
+fraction_evaluation(1.30769230769) = [17, 13]
+
