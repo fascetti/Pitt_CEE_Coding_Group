@@ -1,6 +1,5 @@
-Pittsburgh BikeShare Predictions
-Shallow and Deep Copies of a Variable, modify a variable that is equal to another variable etc.
-
-Discuss Examples from: https://mmldtshortcourse.weebly.com/lecture-notes.html
-
-2022 Twitter Coding Challenge: https://github.com/5j54d93/2022-Twitter-Coding-Challenge 
+1. Pittsburgh BikeShare Predictions Example
+2. Shallow and Deep Copies of a Variable, modify a variable that is equal to another variable etc.
+3. 2022 Twitter Coding Challenge: https://github.com/5j54d93/2022-Twitter-Coding-Challenge 
+4. Deep Learning for Computer Vision in Python
+5. Discuss Examples from: https://mmldtshortcourse.weebly.com/lecture-notes.html
