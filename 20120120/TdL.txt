@@ -1,0 +1,1 @@
+Add self-collision, point system and speed increase
