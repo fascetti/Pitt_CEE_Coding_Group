@@ -1,1 +1,2 @@
 Add self-collision, point system and speed increase
+Fix the "reverse" direction issue
